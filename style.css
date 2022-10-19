@@ -39,13 +39,16 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
-.containerproje .slide-container .slide .contentproje p {
+.containerproje .slide-container .slide .contentproje {
     font-size: 16px;
-    color: #000000;
     font-family: 'Noto Sans', sans-serif;
     width: 40%;
     height: 10%;
 
+}
+
+p {
+    color: #8932c3;
 }
 
 .containerproje .slide-container .slide .contentproje .bntproj{
