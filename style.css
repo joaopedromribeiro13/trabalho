@@ -6,8 +6,12 @@
 
 }
 
+body {
+    background-color: #f6c771;
+}
+
 .navbar {
-    background: #d28a0a;
+    background: linear-gradient(#881e3b,  #d28a0a);
     width: auto;
     height: 160px;
 }
@@ -18,7 +22,7 @@
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
     font-size: x-large;
-    color: #a355d7;
+    color: #f2f2f2;
 }
 
 img {
@@ -44,6 +48,9 @@ img {
 }
 
 .containerproje .slide-container .slide .contentproje{
+    background-color: #f8a000;
+    border-radius: 20px;
+    padding: 10px;
     flex: 1 1 350px;
     animation: slideContent .4s linear .4s backwards;
 }
@@ -58,7 +65,7 @@ img {
 
 .containerproje .slide-container .slide .contentproje h3{
     font-size: 35px;
-    color: #f4a6fe;
+    color: #881e3b;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -74,19 +81,19 @@ img {
 .containerproje .slide-container .slide .contentproje .bntproj{
     margin-top: 10px;
     display: inline-block;
-    background: #8932c3;
+    background: #b63c50;
     color: #ffffff;
     font-size: 17px;
     padding: 9px 40px;
     border-radius: 5px;
-    border: 2px solid #8932c3;
+    border: 2px solid #881e3b;
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
 }
 
 .containerproje .slide-container .slide .contentproje .bntproj:hover{
-    background: #a355d7;
-    border: 2px solid #a355d7;
+    background: #881e3b;
+    border: 2px solid #b63c50;
     color: #ffffff;
 }
 
@@ -128,7 +135,7 @@ img {
     top:50%;
     transform: translateY(-50%);
     color: #ffffff;
-    background: #890873;
+    background: #881e3b;
     height: 50px;
     width: 50px;
     line-height: 50px;
@@ -141,7 +148,7 @@ img {
 
 .containerproje #prev:hover, 
 .containerproje #next:hover{
-    background: #ee7bd3;
+    background: #b63c50;
 }
 .containerproje #prev{
     left: 20px;
@@ -150,6 +157,43 @@ img {
 .containerproje #next{
     right: 20px;
 }
+
+
+/*Aba de compra*/
+.contentproje img{
+    width: 150px;
+    height: 150px;
+}
+
+.compra {
+    padding: 10px;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 3px solid #881e3b;
+    border-radius: 1em;
+}
+
+input, textarea {
+    font-size: medium;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 3px;
+    background-color: #f8a000;
+    width: 400px;
+    border-radius: 7px;
+}
+legend {
+    font-size: x-large;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+/*fim*/
 
 
 
